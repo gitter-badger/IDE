@@ -1,5 +1,7 @@
 # Welcome to Wedisce IDE
 
+[![Join the chat at https://gitter.im/Wedisce/IDE](https://badges.gitter.im/Wedisce/IDE.svg)](https://gitter.im/Wedisce/IDE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is our first commit in Github, because we want to change the world with Open Source by writing Codes.
 
 ## Technology Stacks
