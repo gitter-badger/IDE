@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>{{.Title}} - {{.Description}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/bower_components/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="/public/bower_components/workspace/stylesheets/screen.css">
+    <link rel="stylesheet" href="/public/bower_components/prism/themes/prism-solarizedlight.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
+    {{range .moreStyles}}
+      <link rel="stylesheet" type="text/css" href="/public/{{.}}">
+    {{end}}
+  </head>
+  <body>
